@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, Navbar, NavItem } from 'react-bootstrap';
+import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
 
 const Styles = styled.div `
@@ -23,9 +23,9 @@ export const NavBar = () => (
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav pullRight classname="ml-auto">
-                    <NavItem><Nav.Link href="/website/#">Home</Nav.Link></NavItem>
-                    <NavItem><Nav.Link href="/website/#/about">About</Nav.Link></NavItem>
-                    <NavItem><Nav.Link href="/website/#/contact">Contact</Nav.Link></NavItem>
+                    <Nav.Item><Nav.Link href="/website/#">Home</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/website/#/about">About</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/website/#/contact">Contact</Nav.Link></Nav.Item>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
