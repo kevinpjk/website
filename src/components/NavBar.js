@@ -23,9 +23,9 @@ export const NavBar = () => (
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav classname="ml-auto">
-                    <Nav.Item><Nav.Link href="/website">Home</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/website/about">About</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/website/contact">Contact</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link to="/website">Home</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link to="/website/about">About</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link to="/website/contact">Contact</Nav.Link></Nav.Item>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
