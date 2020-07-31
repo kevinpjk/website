@@ -3,7 +3,7 @@ import { Jumbotron as Jumbo, Container } from 'react-bootstrap';
 import styled from 'styled-components';
 import img from '../assets/background.jpeg';
 
-const Styles = styled.div `
+const Styles = styled.div`
     .jumbo {
         background: url(${img}) no-repeat fixed bottom;
         background-size: cover;
