@@ -19,13 +19,13 @@ const Styles = styled.div `
 export const NavBar = () => (
     <Styles>
         <Navbar expand="lg">
-            <Navbar.Brand href="/">Personal Website</Navbar.Brand>
+            <Navbar.Brand href="/">Jiankai Pu</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav classname="ml-auto">
-                    <Nav.Item><Nav.Link to="/website">Home</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link to="/website/about">About</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link to="/website/contact">Contact</Nav.Link></Nav.Item>
+                <Nav classname="ml-auto" pullRight>
+                    <NavItem><NavLink to="/website">Home</NavLink></NavItem>
+                    <NavItem><NavLink to="/website/about">About</NavLink></NavItem>
+                    <NavItem><NavLink to="/website/contact">Contact</NavLink></NavItem>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
