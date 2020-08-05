@@ -1,3 +1,9 @@
+#TODO:
+- Change Navbar to transparent, move items to the right
+- Include more side margins for main texts
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
