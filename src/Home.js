@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import { Container } from 'react-bootstrap';
 // TODO: a div with three columns on projects (endless runner, search engine, )
 // a div with three columns on interests
 const Styles = styled.div `
