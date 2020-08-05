@@ -18,11 +18,12 @@ const Styles = styled.div `
  
 export const NavBar = () => (
     <Styles>
-        <Navbar bg="dark" variant="dark" expand="lg">
+        <Navbar expand="lg">
             <Navbar.Brand href="/website/#">Jiankai Pu</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-                <Nav pullRight classname="ml-auto">
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav></Nav>
+                <Nav pullRight classname="mr-auto">
                     <Nav.Item><Nav.Link href="/website/#">Home</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href="/website/#/about">About</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href="/website/#/contact">Contact</Nav.Link></Nav.Item>

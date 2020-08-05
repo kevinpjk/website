@@ -8,14 +8,13 @@ const Styles = styled.div`
         background: url(${img}) no-repeat fixed bottom;
         background-size: cover;
         color: #efefef;
-        height: 800px;
+        height: 400px;
         position: relative;
+        text-align: center;
         z-index: -3;
     }
 
     .overlay {
-        background-color: #000;
-        opacity: 0.6;
         position: absolute;
         top: 0;
         left: 0;
