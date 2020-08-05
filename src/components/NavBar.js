@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const Styles = styled.div `
     .navbar {
-        background-color: #222;
+        background: transparent;
     }
 
     .navbar-brand, .navbar-nav .nav-link {
@@ -18,7 +18,7 @@ const Styles = styled.div `
  
 export const NavBar = () => (
     <Styles>
-        <Navbar bg="light" variant="light" expand="lg">
+        <Navbar bg="dark" variant="dark" expand="lg">
             <Navbar.Brand href="/website/#">Jiankai Pu</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
