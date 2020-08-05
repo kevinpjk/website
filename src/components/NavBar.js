@@ -18,7 +18,7 @@ const Styles = styled.div `
  
 export const NavBar = () => (
     <Styles>
-        <Navbar expand="lg">
+        <Navbar bg="light" variant="light" expand="lg">
             <Navbar.Brand href="/website/#">Jiankai Pu</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
