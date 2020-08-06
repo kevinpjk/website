@@ -5,6 +5,7 @@ import styled from 'styled-components';
 const Styles = styled.div `
     .navbar {
         background: none;
+        position: sticky;
     }
 
     .navbar-brand, .navbar-nav .nav-link {
