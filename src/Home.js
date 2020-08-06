@@ -4,20 +4,34 @@ import { Row, Col } from 'react-bootstrap';
 // TODO: a div with three columns on projects (endless runner, search engine, )
 // a div with three columns on interests
 const Styles = styled.div `
-    .mainText .projects .passions {
+    .container {
+        
+    }
+
+    .mainText, .projects, .passions {
+        display: inline-block;
+        vertical-align: top;
         text-align: center;
+        border: 3px solid transparent;
+        padding-bottom: 40px;
+    }
+
+    .spacing {
+        height: 20px;
     }
 `;
 
 export const Home = () => {
     return (
         <Styles>
+            <div className="spacing"></div>
             <div className="mainText">
                 <h2>Home Page</h2>
                 <p>Welcome to my personal website!</p>
                 <p>You can find my projects, experiences and passions here.</p>
                 <p>I am a senior studying Computer Science and Psychology at the University of Michigan. I am enthusiastic about music, dancing, and creative writing.</p>
             </div>
+            <div className="spacing"></div>
             <div className="projects">
                 <h2>Projects</h2>
                 <Row>
@@ -35,6 +49,7 @@ export const Home = () => {
                     </Col>
                 </Row>
             </div>
+            <div className="spacing"></div>
             <div className="passions">
                 <h2>Passions</h2>
                 <Row>
@@ -52,6 +67,7 @@ export const Home = () => {
                     </Col>
                 </Row>
             </div>
+            <div className="spacing"></div>
         </Styles>
     )
 }

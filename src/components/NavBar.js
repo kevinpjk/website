@@ -6,6 +6,7 @@ const Styles = styled.div `
     .navbar {
         background: none;
         position: sticky;
+        z-index: 1;
     }
 
     .navbar-brand, .navbar-nav .nav-link {
