@@ -22,12 +22,17 @@ const Styles = styled.div`
         right: 0;
         z-index: -2;
     }
+
+    .spacing {
+        height: 20px;
+    }
 `;
 
 export const Jumbotron = () => (
     <Styles>
         <Jumbo fluid className="jumbo">
             <div className="overlay"></div>
+            <div className="spacing"></div>
             <Container>
                 <h1>Welcome to my website!</h1>
                 <p>Learn more about me here</p>
