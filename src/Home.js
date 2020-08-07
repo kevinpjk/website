@@ -10,6 +10,7 @@ const Styles = styled.div `
         text-align: center;
         border: 3px solid transparent;
         padding-bottom: 40px;
+        padding-top: 20px;
     }
 
     .title {
@@ -25,6 +26,7 @@ const Styles = styled.div `
         vertical-align: top;
         text-align: center;
         padding-bottom: 10px;
+        padding-top: 20px;
     }
 
     .spacing {
@@ -69,11 +71,11 @@ export const Home = () => {
             </div>
             <div className="spacing"></div>
 
-            <Conatiner fluid>
+            <Container fluid>
                 <div className="title">
                     <h2>Passions</h2>
                 </div>
-            </Conatiner>
+            </Container>
             <div className="passions">
                 <Row>
                     <Col>
