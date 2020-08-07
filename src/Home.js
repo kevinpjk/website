@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 // TODO: a div with three columns on projects (endless runner, search engine, )
 // a div with three columns on interests
 const Styles = styled.div `
@@ -15,7 +15,7 @@ const Styles = styled.div `
     .title {
         vertical-align: top;
         text-align: center;
-        padding-bottom: 20px;
+        height: 50px;
         background-color: #92bfde;
         color: white;
     }
@@ -35,21 +35,22 @@ const Styles = styled.div `
 export const Home = () => {
     return (
         <Styles>
-            <div className="spacing"></div>
-
-            <div className="title">
-                <h2>Home Page</h2>
-            </div>
+            <Container fluid>
+                <div className="title">
+                    <h2>Home Page</h2>
+                </div>
+            </Container>
             <div className="mainText">
                 <p>Welcome to my personal website!</p>
                 <p>You can find my projects, experiences and passions here.</p>
                 <p>I am a senior studying Computer Science and Psychology at the University of Michigan. I am enthusiastic about music, dancing, and creative writing.</p>
             </div>
-            <div className="spacing"></div>
 
-            <div className="title">
-                <h2>Projects</h2>
-            </div>
+            <Container fluid>
+                <div className="title">
+                    <h2>Projects</h2>
+                </div>
+            </Container>
             <div className="projects">
                 <Row>
                     <Col>
@@ -68,9 +69,11 @@ export const Home = () => {
             </div>
             <div className="spacing"></div>
 
-            <div className="title">
-                <h2>Passions</h2>
-            </div>
+            <Conatiner fluid>
+                <div className="title">
+                    <h2>Passions</h2>
+                </div>
+            </Conatiner>
             <div className="passions">
                 <Row>
                     <Col>
@@ -87,7 +90,6 @@ export const Home = () => {
                     </Col>
                 </Row>
             </div>
-            <div className="spacing"></div>
         </Styles>
     )
 }
