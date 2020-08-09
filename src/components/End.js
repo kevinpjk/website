@@ -36,9 +36,9 @@ export const End = () => (
             <div className="spacing"></div>
             <Container>
                 <Row>
-                    <li><a class="github-ic" href="https://github.com/kevinpjk"></a></li>
-                    <li><a class="email-ic" href="mailto: kevin99pjk@gmail.com"></a></li>
-                    <li><a class="li-ic" href="https://www.linkedin.com/in/jiankai-kevin-pu"></a></li>
+                    <li><FontAwesomeIcon icon="github" href="https://github.com/kevinpjk" /></li>
+                    <li><FontAwesomeIcon icon="email" href="mailto: kevin99pjk@gmail.com" /></li>
+                    <li><FontAwesomeIcon icon="linkedin" href="https://www.linkedin.com/in/jiankai-kevin-pu" /></li>
                 </Row>
             </Container>
         </Jumbo>
