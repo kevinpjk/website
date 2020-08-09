@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
 import { Row, Col, Container } from 'react-bootstrap';
-// TODO: a div with three columns on projects (endless runner, search engine, )
-// a div with three columns on interests
+// TODO: Use Cards for sub-sections of project and passions
+// Use Carousel for actual project and experience page
 const Styles = styled.div `
     .mainText, .projects, .passions {
         display: inline-block;

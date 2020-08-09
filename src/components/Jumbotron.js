@@ -24,7 +24,7 @@ const Styles = styled.div`
     }
 
     .spacing {
-        height: 20px;
+        height: 40px;
     }
 `;
 
