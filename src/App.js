@@ -7,6 +7,7 @@ import { NoMatch } from './NoMatch';
 import { Layout } from './components/Layout';
 import { NavBar} from './components/NavBar';
 import { Jumbotron } from './components/Jumbotron';
+import { End } from './components/End';
 
 function App() {
   return (
