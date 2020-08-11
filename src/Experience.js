@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 const Styles = styled.div `
     .content {
-        display: inline-block;
         vertical-align: top;
         text-align: center;
         border: 3px solid transparent;
@@ -26,6 +25,10 @@ const Styles = styled.div `
         padding-bottom: 10px;
         padding-top: 20px;
     }
+
+    .spacing {
+        height: 20px;
+    }
 `;
 
 export const Experience = () => {
@@ -47,6 +50,8 @@ export const Experience = () => {
                 <div className="content">
                     <h4 className="subtitle">Endless Runner</h4>
                     <p>A web-based side-scroller game using Vue framework and JavaScript</p>
+                    
+                    <span className="spacing" />
 
                     <h4 className="subtitle">Search Engine</h4>
                     <p>A scaleable search engine similar to a commercial search engine</p>
@@ -54,14 +59,14 @@ export const Experience = () => {
                     <p>Information retrieval based on both tf-idf and PageRank scores</p>
                     <p>Search interface driven by React with user-driven scoring and summarization</p>
 
+                    <span className="spacing" />
+
                     <h4 className="subtitle">Client-side Dynamic Social Media</h4>
                     <p>An Instagram clone application using client-side dynmaic pages, REST API, and React</p>
                     <p>Render webpages to make asynchronous calls and update content seamelessly</p>
                     <p>Allows users to create profile, log in, make posts, and react to other user's posts</p>
                 </div>
-               
             </div>
         </Styles>
-        
     )
 }
