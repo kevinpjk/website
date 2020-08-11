@@ -1,8 +1,8 @@
 import React from 'react';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import { Home } from './Home';
-import { About } from './About';
-import { Contact } from './Contact';
+import { Experience } from './Experience';
+import { Passion } from './Passion';
 import { NoMatch } from './NoMatch';
 import { Layout } from './components/Layout';
 import { NavBar} from './components/NavBar';
@@ -18,8 +18,8 @@ function App() {
         <Router>
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/contact" component={Contact} />
+            <Route path="/experience" component={Experience} />
+            <Route path="/passion" component={Passion} />
             <Route component={NoMatch} />
           </Switch>
         </Router>
