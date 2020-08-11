@@ -27,8 +27,8 @@ export const NavBar = () => (
                 <Nav></Nav>
                 <Nav classname="mr-auto">
                     <Nav.Item><Nav.Link href="/website/#">Home</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/website/#/about">About</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/website/#/contact">Contact</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/website/#/experience">Experience</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/website/#/passion">Passion</Nav.Link></Nav.Item>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
