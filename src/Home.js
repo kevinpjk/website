@@ -37,22 +37,18 @@ const Styles = styled.div `
 export const Home = () => {
     return (
         <Styles>
-            <Container fluid>
-                <div className="title">
-                    <h2>Home Page</h2>
-                </div>
-            </Container>
+            <div className="title">
+                <h2>Home Page</h2>
+            </div>
             <div className="mainText">
                 <p>Welcome to my personal website!</p>
                 <p>You can find my projects, experiences and passions here.</p>
                 <p>I am a senior studying Computer Science and Psychology at the University of Michigan. I am enthusiastic about music, dancing, and creative writing.</p>
             </div>
 
-            <Container fluid>
-                <div className="title">
-                    <h2>Projects</h2>
-                </div>
-            </Container>
+            <div className="title">
+                <h2>Projects</h2>
+            </div>
             <div className="projects">
                 <Row>
                     <Col>
@@ -71,11 +67,9 @@ export const Home = () => {
             </div>
             <div className="spacing"></div>
 
-            <Container fluid>
-                <div className="title">
-                    <h2>Passions</h2>
-                </div>
-            </Container>
+            <div className="title">
+                <h2>Passions</h2>
+            </div>
             <div className="passions">
                 <Row>
                     <Col>
