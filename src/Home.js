@@ -42,7 +42,7 @@ export const Home = () => {
             </div>
             <Container>
                 <div className="mainText">
-                    <p>My name is Jiankai (Kevin) Pu. </p>
+                    <p>Welcome! My name is Jiankai (Kevin) Pu. </p>
                     <p>I am a senior studying Computer Science and Psychology at the University of Michigan. I am enthusiastic about music, dancing, and creative writing.</p>
                     <p>You can find my projects, experiences and passions here.</p>
                 </div>

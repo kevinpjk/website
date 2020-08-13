@@ -44,11 +44,13 @@ export const End = () => (
         <Jumbo fluid className="jumbo">
             <div className="overlay"></div>
             <div className="spacing"></div>
+            <div className="icons">
                 <Row>
-                    <FontAwesomeIcon className="icons" icon={['fab', 'github']} size="fa-4x" href="https://github.com/kevinpjk" />
-                    <FontAwesomeIcon className="icons" icon={['fab', 'google']} size="fa-4x" href="mailto: kevin99pjk@gmail.com" />
-                    <FontAwesomeIcon className="icons" icon={['fab', 'linkedin']} size="fa-4x" href="https://www.linkedin.com/in/jiankai-kevin-pu" />
+                    <FontAwesomeIcon icon={['fab', 'github']} size="fa-4x" href="https://github.com/kevinpjk" />
+                    <FontAwesomeIcon icon={['fab', 'google']} size="fa-4x" href="mailto: kevin99pjk@gmail.com" />
+                    <FontAwesomeIcon icon={['fab', 'linkedin']} size="fa-4x" href="https://www.linkedin.com/in/jiankai-kevin-pu" />
                 </Row>
+            </div>
         </Jumbo>
     </Styles>
 )
