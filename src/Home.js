@@ -40,11 +40,13 @@ export const Home = () => {
             <div className="title">
                 <h2>Home Page</h2>
             </div>
-            <div className="mainText">
-                <p>Welcome to my personal website!</p>
-                <p>You can find my projects, experiences and passions here.</p>
-                <p>I am a senior studying Computer Science and Psychology at the University of Michigan. I am enthusiastic about music, dancing, and creative writing.</p>
-            </div>
+            <Container>
+                <div className="mainText">
+                    <p>Welcome to my personal website!</p>
+                    <p>You can find my projects, experiences and passions here.</p>
+                    <p>I am a senior studying Computer Science and Psychology at the University of Michigan. I am enthusiastic about music, dancing, and creative writing.</p>
+                </div>
+            </Container>
 
             <div className="title">
                 <h2>Projects</h2>
@@ -52,16 +54,22 @@ export const Home = () => {
             <div className="projects">
                 <Row>
                     <Col>
-                        <h4 className="subtitle">Endless Runner</h4>
-                        <p>A web-based game that generates obstacles and pick-ups and keeps the player running</p>
-                    </Col>
-                    <Col>
                         <h4 className="subtitle">Search Engine</h4>
-                        <p>A search engine implementation using hadoop pipieline and map reduce</p>
+                        <Conatiner>
+                            <p>A scalable search engine implementation using hadoop pipieline and map reduce</p>
+                        </Conatiner>
                     </Col>
                     <Col>
-                        <h4 className="subtitle">Project 3</h4>
-                        <p>A project that I have done in the past</p>
+                        <h4 className="subtitle">Endless Runner</h4>
+                        <Container>
+                            <p>A web-based game that generates obstacles and pick-ups and keeps the player running</p>
+                        </Container>
+                    </Col>
+                    <Col>
+                        <h4 className="subtitle">Client-side Dynamic Social Media</h4>
+                        <Conatiner>
+                            <p>An Instagram clone application using client-side dynmaic pages, REST API, and React</p>
+                        </Conatiner>
                     </Col>
                 </Row>
             </div>

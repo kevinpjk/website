@@ -14,7 +14,6 @@ function App() {
     <React.Fragment>
       <NavBar />
       <Jumbotron />
-      <Layout>
         <Router>
           <Switch>
             <Route exact path="/" component={Home} />
@@ -23,7 +22,6 @@ function App() {
             <Route component={NoMatch} />
           </Switch>
         </Router>
-      </Layout>
       <End />
     </React.Fragment>
   );

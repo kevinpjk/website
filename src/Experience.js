@@ -48,17 +48,17 @@ export const Experience = () => {
                 </div>
 
                 <div className="content">
-                    <h4 className="subtitle">Endless Runner</h4>
-                    <p>A web-based side-scroller game using Vue framework and JavaScript</p>
-                    
-                    <span className="spacing" />
-
                     <h4 className="subtitle">Search Engine</h4>
                     <p>A scaleable search engine similar to a commercial search engine</p>
                     <p>Indexing implemented with MapReduce on Hadoop pipeline to allow large scaling</p>
                     <p>Information retrieval based on both tf-idf and PageRank scores</p>
                     <p>Search interface driven by React with user-driven scoring and summarization</p>
 
+                    <span className="spacing" />
+
+                    <h4 className="subtitle">Endless Runner</h4>
+                    <p>A web-based side-scroller game using Vue framework and JavaScript</p>
+                    
                     <span className="spacing" />
 
                     <h4 className="subtitle">Client-side Dynamic Social Media</h4>
