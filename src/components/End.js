@@ -1,8 +1,9 @@
 import React from 'react';
+import '../FontAwesome'
 import { Jumbotron as Jumbo, Container } from 'react-bootstrap';
 import styled from 'styled-components';
 import { Row } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fontawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // TODO: Needs to get the icons showing up
 
 const Styles = styled.div`
@@ -37,9 +38,9 @@ export const End = () => (
             <div className="spacing"></div>
             <Container>
                 <Row>
-                    <FontAwesomeIcon icon={'fab', 'github'} href="https://github.com/kevinpjk" />
-                    <FontAwesomeIcon icon={'fab', 'gmail'} href="mailto: kevin99pjk@gmail.com" />
-                    <FontAwesomeIcon icon={'fab', 'linkedin'} href="https://www.linkedin.com/in/jiankai-kevin-pu" />
+                    <FontAwesomeIcon icon={['fab', 'github']} href="https://github.com/kevinpjk" />
+                    <FontAwesomeIcon icon={['fab', 'gmail']} href="mailto: kevin99pjk@gmail.com" />
+                    <FontAwesomeIcon icon={['fab', 'linkedin']} href="https://www.linkedin.com/in/jiankai-kevin-pu" />
                 </Row>
             </Container>
         </Jumbo>
