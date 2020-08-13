@@ -27,8 +27,6 @@ const Styles = styled.div`
     }
 
     .icons {
-        display: block
-        position: relative
         margin-left: auto;
         margin-right: auto;
         width: 50%;
@@ -41,14 +39,14 @@ const Styles = styled.div`
 
 export const End = () => (
     <Styles>
-        <Jumbo fluid className="jumbo">
+        <Jumbo className="jumbo">
             <div className="overlay"></div>
             <div className="spacing"></div>
             <div className="icons">
                 <Row>
-                    <FontAwesomeIcon icon={['fab', 'github']} size="fa-4x" href="https://github.com/kevinpjk" />
-                    <FontAwesomeIcon icon={['fab', 'google']} size="fa-4x" href="mailto: kevin99pjk@gmail.com" />
-                    <FontAwesomeIcon icon={['fab', 'linkedin']} size="fa-4x" href="https://www.linkedin.com/in/jiankai-kevin-pu" />
+                    <FontAwesomeIcon icon={['fab', 'github']} size="fa-10x" href="https://github.com/kevinpjk" />
+                    <FontAwesomeIcon icon={['fab', 'google']} size="fa-10x" href="mailto: kevin99pjk@gmail.com" />
+                    <FontAwesomeIcon icon={['fab', 'linkedin']} size="fa-10x" href="https://www.linkedin.com/in/jiankai-kevin-pu" />
                 </Row>
             </div>
         </Jumbo>
