@@ -26,6 +26,14 @@ const Styles = styled.div`
         z-index: -2;
     }
 
+    .icons {
+        display: block
+        position: relative
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
     .spacing {
         height: 40px;
     }
@@ -37,9 +45,9 @@ export const End = () => (
             <div className="overlay"></div>
             <div className="spacing"></div>
                 <Row>
-                    <FontAwesomeIcon icon={['fab', 'github']} size="lg" href="https://github.com/kevinpjk" />
-                    <FontAwesomeIcon icon={['fab', 'google']} size="lg" href="mailto: kevin99pjk@gmail.com" />
-                    <FontAwesomeIcon icon={['fab', 'linkedin']} size="lg" href="https://www.linkedin.com/in/jiankai-kevin-pu" />
+                    <FontAwesomeIcon className="icons" icon={['fab', 'github']} size="fa-4x" href="https://github.com/kevinpjk" />
+                    <FontAwesomeIcon className="icons" icon={['fab', 'google']} size="fa-4x" href="mailto: kevin99pjk@gmail.com" />
+                    <FontAwesomeIcon className="icons" icon={['fab', 'linkedin']} size="fa-4x" href="https://www.linkedin.com/in/jiankai-kevin-pu" />
                 </Row>
         </Jumbo>
     </Styles>
