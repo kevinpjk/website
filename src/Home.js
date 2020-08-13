@@ -42,9 +42,9 @@ export const Home = () => {
             </div>
             <Container>
                 <div className="mainText">
-                    <p>Welcome to my personal website!</p>
-                    <p>You can find my projects, experiences and passions here.</p>
+                    <p>My name is Jiankai (Kevin) Pu. </p>
                     <p>I am a senior studying Computer Science and Psychology at the University of Michigan. I am enthusiastic about music, dancing, and creative writing.</p>
+                    <p>You can find my projects, experiences and passions here.</p>
                 </div>
             </Container>
 
@@ -79,22 +79,26 @@ export const Home = () => {
                 <h2>Passions</h2>
             </div>
             <div className="passions">
-                <Container>
-                    <Row>
-                        <Col>
-                            <h4 className="subtitle">Dancing</h4>
+                <Row>
+                    <Col>
+                        <h4 className="subtitle">Dancing</h4>
+                        <Container>
                             <p>I do urban and hip-hop dancing in my free time. A choreogrpaher and co-president on the dance crew FunKtion</p>
-                        </Col>
-                        <Col>
-                            <h4 className="subtitle">Guitar</h4>
+                        </Container>
+                    </Col>
+                    <Col>
+                        <h4 className="subtitle">Guitar</h4>
+                        <Container>
                             <p>I have played acoustic guitar for 7 years</p>
-                        </Col>
-                        <Col>
-                            <h4 className="subtitle">Creative Writing</h4>
+                        </Container>
+                    </Col>
+                    <Col>
+                        <h4 className="subtitle">Creative Writing</h4>
+                        <Container>
                             <p>I own a Chinese public blog and have compiled a book with my free writing pieces</p>
-                        </Col>
-                    </Row>
-                </Container>
+                        </Container>
+                    </Col>
+                </Row>
             </div>
         </Styles>
     )

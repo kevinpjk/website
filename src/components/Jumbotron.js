@@ -34,8 +34,9 @@ export const Jumbotron = () => (
             <div className="overlay"></div>
             <div className="spacing"></div>
             <Container>
-                <h1>Welcome to my website!</h1>
+                <h1>Welcome to Kevin Pu's website!</h1>
                 <p>Learn more about me here</p>
+                <p>~Website still under construction~</p>
             </Container>
         </Jumbo>
     </Styles>
