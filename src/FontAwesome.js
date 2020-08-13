@@ -1,7 +1,7 @@
 import {library} from '@fortawesome/fontawesome-svg-core'
 
 import {
-    faGithubSquare,
+    faGithub,
     faFacebookSquare,
     faTwitter,
     faLinkedin,
@@ -12,7 +12,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 
 library.add(
-    faGithubSquare,
+    faGithub,
     faFacebookSquare,
     faTwitter,
     faLinkedin,

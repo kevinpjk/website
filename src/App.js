@@ -12,7 +12,6 @@ import { End } from './components/End';
 function App() {
   return (
     <React.Fragment>
-      <title>Jiankai Pu</title>
       <NavBar />
       <Jumbotron />
         <Router>
