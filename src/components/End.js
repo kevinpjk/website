@@ -36,13 +36,11 @@ export const End = () => (
         <Jumbo fluid className="jumbo">
             <div className="overlay"></div>
             <div className="spacing"></div>
-            <Container>
                 <Row>
-                    <FontAwesomeIcon icon={['fab', 'github']} href="https://github.com/kevinpjk" />
-                    <FontAwesomeIcon icon={['fab', 'gmail']} href="mailto: kevin99pjk@gmail.com" />
-                    <FontAwesomeIcon icon={['fab', 'linkedin']} href="https://www.linkedin.com/in/jiankai-kevin-pu" />
+                    <FontAwesomeIcon icon={['fab', 'github']} size="lg" href="https://github.com/kevinpjk" />
+                    <FontAwesomeIcon icon={['fab', 'google']} size="lg" href="mailto: kevin99pjk@gmail.com" />
+                    <FontAwesomeIcon icon={['fab', 'linkedin']} size="lg" href="https://www.linkedin.com/in/jiankai-kevin-pu" />
                 </Row>
-            </Container>
         </Jumbo>
     </Styles>
 )
