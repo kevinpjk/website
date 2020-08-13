@@ -55,9 +55,9 @@ export const Home = () => {
                 <Row>
                     <Col>
                         <h4 className="subtitle">Search Engine</h4>
-                        <Conatiner>
+                        <Container>
                             <p>A scalable search engine implementation using hadoop pipieline and map reduce</p>
-                        </Conatiner>
+                        </Container>
                     </Col>
                     <Col>
                         <h4 className="subtitle">Endless Runner</h4>
@@ -67,9 +67,9 @@ export const Home = () => {
                     </Col>
                     <Col>
                         <h4 className="subtitle">Client-side Dynamic Social Media</h4>
-                        <Conatiner>
+                        <Container>
                             <p>An Instagram clone application using client-side dynmaic pages, REST API, and React</p>
-                        </Conatiner>
+                        </Container>
                     </Col>
                 </Row>
             </div>
