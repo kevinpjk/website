@@ -79,20 +79,22 @@ export const Home = () => {
                 <h2>Passions</h2>
             </div>
             <div className="passions">
-                <Row>
-                    <Col>
-                        <h4 className="subtitle">Dancing</h4>
-                        <p>I do urban and hip-hop dancing in my free time. A choreogrpaher and co-president on the dance crew FunKtion</p>
-                    </Col>
-                    <Col>
-                        <h4 className="subtitle">Guitar</h4>
-                        <p>I have played acoustic guitar for 7 years</p>
-                    </Col>
-                    <Col>
-                        <h4 className="subtitle">Creative Writing</h4>
-                        <p>I own a Chinese public blog and have compiled a book with my free writing pieces</p>
-                    </Col>
-                </Row>
+                <Container>
+                    <Row>
+                        <Col>
+                            <h4 className="subtitle">Dancing</h4>
+                            <p>I do urban and hip-hop dancing in my free time. A choreogrpaher and co-president on the dance crew FunKtion</p>
+                        </Col>
+                        <Col>
+                            <h4 className="subtitle">Guitar</h4>
+                            <p>I have played acoustic guitar for 7 years</p>
+                        </Col>
+                        <Col>
+                            <h4 className="subtitle">Creative Writing</h4>
+                            <p>I own a Chinese public blog and have compiled a book with my free writing pieces</p>
+                        </Col>
+                    </Row>
+                </Container>
             </div>
         </Styles>
     )
