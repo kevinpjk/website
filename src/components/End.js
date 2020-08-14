@@ -30,12 +30,15 @@ const Styles = styled.div`
         margin-left: auto;
         margin-right: auto;
         width: 50%;
-        font-size: 20pt;
+        font-size: 40pt;
+        z-index:1
     }
 
     .icon {
-        padding-right: 25px;
-        padding-left: 25px;
+        padding-right: 35px;
+        padding-left: 35px;
+        padding-top: 100px;
+        color: white;
     }
 `;
 
