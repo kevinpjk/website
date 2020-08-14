@@ -30,14 +30,14 @@ const Styles = styled.div`
         margin-left: auto;
         margin-right: auto;
         width: 50%;
-        font-size: 40pt;
+        padding-top: 100px;
+        font-size: 30pt;
         z-index:1
     }
 
     .icon {
         padding-right: 35px;
         padding-left: 35px;
-        padding-top: 100px;
         color: white;
     }
 `;
@@ -48,9 +48,9 @@ export const End = () => (
             <div className="icons">
                 <Row>
                     <Col>
-                        <a className="icon" href="https://github.com/kevinpjk"><FontAwesomeIcon icon={['fab', 'github']} /></a>
-                        <a className="icon" href="mailto: kevin99pjk@gmail.com"><FontAwesomeIcon icon={['fab', 'google']} /></a>
-                        <a className="icon" href="https://www.linkedin.com/in/jiankai-kevin-pu"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+                        <a href="https://github.com/kevinpjk"><FontAwesomeIcon icon={['fab', 'github']} /></a>
+                        <a href="mailto: kevin99pjk@gmail.com"><FontAwesomeIcon icon={['fab', 'google']} /></a>
+                        <a href="https://www.linkedin.com/in/jiankai-kevin-pu"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
                     </Col>
                 </Row>
             </div>
