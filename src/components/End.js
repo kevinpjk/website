@@ -47,9 +47,9 @@ export const End = () => (
             <div className="icons">
                 <Row>
                     <Col>
-                        <Link className="icon" to="https://github.com/kevinpjk"><FontAwesomeIcon icon={['fab', 'github']} /></Link>
-                        <Link className="icon" to="mailto: kevin99pjk@gmail.com"><FontAwesomeIcon icon={['fab', 'google']} /></Link>
-                        <Link className="icon" to="https://www.linkedin.com/in/jiankai-kevin-pu"><FontAwesomeIcon icon={['fab', 'linkedin']} /></Link>
+                        <Link className="icon" to="/https://github.com/kevinpjk"><FontAwesomeIcon icon={['fab', 'github']} /></Link>
+                        <Link className="icon" to="/mailto: kevin99pjk@gmail.com"><FontAwesomeIcon icon={['fab', 'google']} /></Link>
+                        <Link className="icon" to="/https://www.linkedin.com/in/jiankai-kevin-pu"><FontAwesomeIcon icon={['fab', 'linkedin']} /></Link>
                     </Col>
                 </Row>
             </div>
