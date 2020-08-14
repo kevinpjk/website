@@ -44,15 +44,20 @@ export const End = () => (
             <div className="spacing"></div>
             <div className="icons">
                 <Row>
-                    <a href="https://github.com/kevinpjk">
+                    <Col>
+                        <a class="github-ic justify content center" href="https://github.com/kevinpjk">
+                            
+                        </a>
+                        <a class="email-ic justify content center" href="mailto: kevin99pjk@gmail.com">
+                            
+                        </a>
+                        <a class="li-ic justify content center" href="https://www.linkedin.com/in/jiankai-kevin-pu">
+                            
+                        </a>
                         <FontAwesomeIcon icon={['fab', 'github']} size="xxl" />
-                    </a>
-                    <a href="mailto: kevin99pjk@gmail.com">
                         <FontAwesomeIcon icon={['fab', 'google']} size="xxl" />
-                    </a>
-                    <a href="https://www.linkedin.com/in/jiankai-kevin-pu">
                         <FontAwesomeIcon icon={['fab', 'linkedin']} size="xxl" />
-                    </a>
+                    </Col>
                 </Row>
             </div>
         </Jumbo>
