@@ -30,6 +30,11 @@ const Styles = styled.div`
         margin-left: auto;
         margin-right: auto;
         width: 50%;
+        font-size: 20pt;
+    }
+
+    .FontAwesomeIcon {
+        padding: 20px;
     }
 
     .spacing {
@@ -45,18 +50,9 @@ export const End = () => (
             <div className="icons">
                 <Row>
                     <Col>
-                        <a class="github-ic justify content center" href="https://github.com/kevinpjk">
-                            
-                        </a>
-                        <a class="email-ic justify content center" href="mailto: kevin99pjk@gmail.com">
-                            
-                        </a>
-                        <a class="li-ic justify content center" href="https://www.linkedin.com/in/jiankai-kevin-pu">
-                            
-                        </a>
-                        <FontAwesomeIcon icon={['fab', 'github']} size="xxl" />
-                        <FontAwesomeIcon icon={['fab', 'google']} size="xxl" />
-                        <FontAwesomeIcon icon={['fab', 'linkedin']} size="xxl" />
+                        <FontAwesomeIcon icon={['fab', 'github']} href="https://github.com/kevinpjk"/>
+                        <FontAwesomeIcon icon={['fab', 'google']} href="mailto: kevin99pjk@gmail.com"/>
+                        <FontAwesomeIcon icon={['fab', 'linkedin']} href="https://www.linkedin.com/in/jiankai-kevin-pu"/>
                     </Col>
                 </Row>
             </div>
