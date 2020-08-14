@@ -33,8 +33,9 @@ const Styles = styled.div`
         font-size: 20pt;
     }
 
-    .FontAwesomeIcon {
-        padding: 20px;
+    .icon {
+        padding-right: 50px;
+        padding-left: 50px;
     }
 
     .spacing {
@@ -50,9 +51,9 @@ export const End = () => (
             <div className="icons">
                 <Row>
                     <Col>
-                        <FontAwesomeIcon icon={['fab', 'github']} href="https://github.com/kevinpjk"/>
-                        <FontAwesomeIcon icon={['fab', 'google']} href="mailto: kevin99pjk@gmail.com"/>
-                        <FontAwesomeIcon icon={['fab', 'linkedin']} href="https://www.linkedin.com/in/jiankai-kevin-pu"/>
+                        <a className="icon" href="https://github.com/kevinpjk"><FontAwesomeIcon icon={['fab', 'github']} /></a>
+                        <a className="icon" href="mailto: kevin99pjk@gmail.com"><FontAwesomeIcon icon={['fab', 'google']} /></a>
+                        <a className="icon" href="https://www.linkedin.com/in/jiankai-kevin-pu"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
                     </Col>
                 </Row>
             </div>
