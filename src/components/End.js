@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // TODO: Needs to get the icons showing up
 
 const Styles = styled.div`
-    .jumbo {
+    .end {
         background-size: cover;
         background-color: #92bfde;
         color: #efefef;
@@ -41,8 +41,7 @@ const Styles = styled.div`
 
 export const End = () => (
     <Styles>
-        <Jumbo className="jumbo">
-            <div className="overlay"></div>
+        <div className="end">
             <div className="icons">
                 <Row>
                     <Col>
@@ -52,6 +51,6 @@ export const End = () => (
                     </Col>
                 </Row>
             </div>
-        </Jumbo>
+        </div>
     </Styles>
 )
