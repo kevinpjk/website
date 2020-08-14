@@ -3,7 +3,6 @@ import '../FontAwesome'
 import { Jumbotron as Jumbo, Container } from 'react-bootstrap';
 import styled from 'styled-components';
 import { Row, Col } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // TODO: Needs to get the icons showing up
 
@@ -47,9 +46,9 @@ export const End = () => (
             <div className="icons">
                 <Row>
                     <Col>
-                        <Link className="icon" to="/https://github.com/kevinpjk"><FontAwesomeIcon icon={['fab', 'github']} /></Link>
-                        <Link className="icon" to="/mailto: kevin99pjk@gmail.com"><FontAwesomeIcon icon={['fab', 'google']} /></Link>
-                        <Link className="icon" to="/https://www.linkedin.com/in/jiankai-kevin-pu"><FontAwesomeIcon icon={['fab', 'linkedin']} /></Link>
+                        <a className="icon" to="https://github.com/kevinpjk"><FontAwesomeIcon icon={['fab', 'github']} /></a>
+                        <a className="icon" to="mailto: kevin99pjk@gmail.com"><FontAwesomeIcon icon={['fab', 'google']} /></a>
+                        <a className="icon" to="https://www.linkedin.com/in/jiankai-kevin-pu"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
                     </Col>
                 </Row>
             </div>
