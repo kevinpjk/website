@@ -40,7 +40,7 @@ export const Home = () => {
             <Container>
                 <Row>
                     <Col>
-                        <Image src={profile} alt="Profile" rounded fluid/>
+                        <Image src={profile} alt="Profile" rounded style={{width:540, height:720}}/>
                     </Col>
                     <Col>
                         <div className="mainText">
