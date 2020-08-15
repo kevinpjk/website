@@ -16,6 +16,7 @@ const Styles = styled.div `
 
     .title {
         place-items: center;
+        text-align: center;
         height: 50px;
         background-color: #92bfde;
         color: white;
@@ -39,7 +40,7 @@ export const Home = () => {
             <Container>
                 <Row>
                     <Col>
-                        <img src={profile} alt="Profile" />
+                        <Image src="./assets/profile.jpeg/108x144" alt="Profile" rounded/>
                     </Col>
                     <Col>
                         <div className="mainText">
