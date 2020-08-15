@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import { Row, Col, Container, Carousel, Image } from 'react-bootstrap';
+import profile from "../assets/profile.jpeg";
 // TODO: Use Cards for sub-sections of project and passions
 // Use Carousel for actual project and experience page
 const Styles = styled.div `
@@ -38,7 +39,7 @@ export const Home = () => {
             <Container>
                 <Row>
                     <Col>
-                        <Image src="../assets/profile.jpeg" rounded/>
+                        <img src={profile} alt="Profile" />
                     </Col>
                     <Col>
                         <div className="mainText">
@@ -51,9 +52,7 @@ export const Home = () => {
                 
             </Container>
 
-            <div className="title">
-                <h2>Projects</h2>
-            </div>
+            <h2 className="title">Projects</h2>
             <div className="projects">
                 <Row>
                     <Col>
@@ -78,9 +77,7 @@ export const Home = () => {
             </div>
             <div className="spacing"></div>
 
-            <div className="title">
-                <h2>Passions</h2>
-            </div>
+            <h2 className="title">Passions</h2>
             <div className="passions">
                 <Row>
                     <Col>
