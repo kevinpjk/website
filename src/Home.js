@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import { Row, Col, Container } from 'react-bootstrap';
+import { Row, Col, Container, Carousel, Image } from 'react-bootstrap';
 // TODO: Use Cards for sub-sections of project and passions
 // Use Carousel for actual project and experience page
 const Styles = styled.div `
@@ -14,8 +14,7 @@ const Styles = styled.div `
     }
 
     .title {
-        vertical-align: top;
-        text-align: center;
+        place-items: center;
         height: 50px;
         background-color: #92bfde;
         color: white;
@@ -23,8 +22,7 @@ const Styles = styled.div `
 
     .subtitle {
         color: #29476c;
-        vertical-align: top;
-        text-align: center;
+        place-items: center;
         padding-bottom: 10px;
         padding-top: 20px;
     }
@@ -37,15 +35,20 @@ const Styles = styled.div `
 export const Home = () => {
     return (
         <Styles>
-            <div className="title">
-                <h2>Home Page</h2>
-            </div>
             <Container>
-                <div className="mainText">
-                    <p>Welcome! My name is Jiankai (Kevin) Pu. </p>
-                    <p>I am a senior studying Computer Science and Psychology at the University of Michigan. I am enthusiastic about music, dancing, and creative writing.</p>
-                    <p>You can find my projects, experiences and passions here.</p>
-                </div>
+                <Row>
+                    <Col>
+                        <Image src="../assets/profile.jpeg" rounded/>
+                    </Col>
+                    <Col>
+                        <div className="mainText">
+                            <p>Welcome! My name is Jiankai (Kevin) Pu. </p>
+                            <p>I am a senior studying Computer Science and Psychology at the University of Michigan. I am enthusiastic about music, dancing, and creative writing.</p>
+                            <p>You can find my projects, experiences and passions here.</p>
+                        </div>
+                    </Col>
+                </Row>
+                
             </Container>
 
             <div className="title">
