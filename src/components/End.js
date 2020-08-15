@@ -14,12 +14,14 @@ const Styles = styled.div`
         height: 200px;
         position: relative;
         text-align: center;
-        z-index: -3;
     }
 
     .icons {
         display: grid;
         place-items: center;
+        background-color: #92bfde;
+        color: #efefef;
+        height: 200px;
         font-size: 30pt;
         z-index:1
     }
@@ -33,16 +35,14 @@ const Styles = styled.div`
 
 export const End = () => (
     <Styles>
-        <div className="end">
-            <div className="icons">
-                <Row>
-                    <Col>
-                        <a className="icon" href="https://github.com/kevinpjk"><FontAwesomeIcon icon={['fab', 'github']} /></a>
-                        <a className="icon" href="mailto: kevin99pjk@gmail.com"><FontAwesomeIcon icon={['fab', 'google']} /></a>
-                        <a className="icon" href="https://www.linkedin.com/in/jiankai-kevin-pu"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
-                    </Col>
-                </Row>
-            </div>
+        <div className="icons">
+            <Row>
+                <Col>
+                    <a className="icon" href="https://github.com/kevinpjk"><FontAwesomeIcon icon={['fab', 'github']} /></a>
+                    <a className="icon" href="mailto: kevin99pjk@gmail.com"><FontAwesomeIcon icon={['fab', 'google']} /></a>
+                    <a className="icon" href="https://www.linkedin.com/in/jiankai-kevin-pu"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+                </Col>
+            </Row>
         </div>
     </Styles>
 )
