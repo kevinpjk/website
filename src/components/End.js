@@ -30,7 +30,7 @@ const Styles = styled.div`
         margin-left: auto;
         margin-right: auto;
         width: 50%;
-        padding-top: 100px;
+        padding-top: 50%;
         font-size: 30pt;
         z-index:1
     }

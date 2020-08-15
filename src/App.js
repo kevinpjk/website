@@ -14,14 +14,14 @@ function App() {
     <React.Fragment>
       <NavBar />
       <Jumbotron />
-        <Router>
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/experience" component={Experience} />
-            <Route path="/passion" component={Passion} />
-            <Route component={NoMatch} />
-          </Switch>
-        </Router>
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/experience" component={Experience} />
+          <Route path="/passion" component={Passion} />
+          <Route component={NoMatch} />
+        </Switch>
+      </Router>
       <End />
     </React.Fragment>
   );
