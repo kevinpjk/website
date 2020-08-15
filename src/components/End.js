@@ -17,20 +17,9 @@ const Styles = styled.div`
         z-index: -3;
     }
 
-    .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        z-index: -2;
-    }
-
     .icons {
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        padding-top: 50%;
+        display: grid;
+        place-items: center;
         font-size: 30pt;
         z-index:1
     }
@@ -48,9 +37,9 @@ export const End = () => (
             <div className="icons">
                 <Row>
                     <Col>
-                        <a href="https://github.com/kevinpjk"><FontAwesomeIcon icon={['fab', 'github']} /></a>
-                        <a href="mailto: kevin99pjk@gmail.com"><FontAwesomeIcon icon={['fab', 'google']} /></a>
-                        <a href="https://www.linkedin.com/in/jiankai-kevin-pu"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+                        <a className="icon" href="https://github.com/kevinpjk"><FontAwesomeIcon icon={['fab', 'github']} /></a>
+                        <a className="icon" href="mailto: kevin99pjk@gmail.com"><FontAwesomeIcon icon={['fab', 'google']} /></a>
+                        <a className="icon" href="https://www.linkedin.com/in/jiankai-kevin-pu"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
                     </Col>
                 </Row>
             </div>
