@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import { Row, Col, Container, Carousel, Image } from 'react-bootstrap';
-import profile from "./assets/profile.jpeg/108x144";
+import profile from "./assets/profile.jpeg";
 // TODO: Use Cards for sub-sections of project and passions
 // Use Carousel for actual project and experience page
 const Styles = styled.div `
@@ -40,7 +40,7 @@ export const Home = () => {
             <Container>
                 <Row>
                     <Col>
-                        <Image src={profile} alt="Profile" rounded/>
+                        <Image src={profile} alt="Profile" rounded style={{width:108, height:144}}/>
                     </Col>
                     <Col>
                         <div className="mainText">
