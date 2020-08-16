@@ -45,7 +45,7 @@ export const Home = () => {
             <Container>
                 <Row>
                     <Col>
-                        <Image src={profile} alt="Profile" rounded style={{width:540, height:540}}/>
+                        <Image src={profile} alt="Profile" rounded style={{width:270, height:270}}/>
                     </Col>
                     <Col>
                         <div className="mainText">
@@ -58,7 +58,9 @@ export const Home = () => {
                 
             </Container>
 
-            <div>
+            <div className="spacing"></div>
+
+            <div className="blueContent">
                 <h2 className="title">Projects</h2>
                 <div className="projects">
                     <Row>
