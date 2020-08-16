@@ -22,6 +22,11 @@ const Styles = styled.div `
         color: white;
     }
 
+    .blueContent {
+        background-color: #92bfde;
+        color: white;
+    }
+
     .subtitle {
         color: #29476c;
         place-items: center;
@@ -40,7 +45,7 @@ export const Home = () => {
             <Container>
                 <Row>
                     <Col>
-                        <Image src={profile} alt="Profile" rounded style={{width:540, height:720}}/>
+                        <Image src={profile} alt="Profile" rounded style={{width:540, height:540}}/>
                     </Col>
                     <Col>
                         <div className="mainText">
@@ -53,28 +58,30 @@ export const Home = () => {
                 
             </Container>
 
-            <h2 className="title">Projects</h2>
-            <div className="projects">
-                <Row>
-                    <Col>
-                        <h4 className="subtitle">Search Engine</h4>
-                        <Container>
-                            <p>A scalable search engine implementation using hadoop pipieline and map reduce</p>
-                        </Container>
-                    </Col>
-                    <Col>
-                        <h4 className="subtitle">Endless Runner</h4>
-                        <Container>
-                            <p>A web-based game that generates obstacles and pick-ups and keeps the player running</p>
-                        </Container>
-                    </Col>
-                    <Col>
-                        <h4 className="subtitle">Client-side Dynamic Social Media</h4>
-                        <Container>
-                            <p>An Instagram clone application using client-side dynmaic pages, REST API, and React</p>
-                        </Container>
-                    </Col>
-                </Row>
+            <div>
+                <h2 className="title">Projects</h2>
+                <div className="projects">
+                    <Row>
+                        <Col>
+                            <h4 className="subtitle">Search Engine</h4>
+                            <Container>
+                                <p>A scalable search engine implementation using hadoop pipieline and map reduce</p>
+                            </Container>
+                        </Col>
+                        <Col>
+                            <h4 className="subtitle">Endless Runner</h4>
+                            <Container>
+                                <p>A web-based game that generates obstacles and pick-ups and keeps the player running</p>
+                            </Container>
+                        </Col>
+                        <Col>
+                            <h4 className="subtitle">Client-side Dynamic Social Media</h4>
+                            <Container>
+                                <p>An Instagram clone application using client-side dynmaic pages, REST API, and React</p>
+                            </Container>
+                        </Col>
+                    </Row>
+                </div>
             </div>
             <div className="spacing"></div>
 
