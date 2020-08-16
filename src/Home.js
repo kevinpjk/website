@@ -14,12 +14,15 @@ const Styles = styled.div `
         padding-top: 20px;
     }
 
+    .intro {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
     .title {
         place-items: center;
         text-align: center;
         height: 50px;
-        background-color: #92bfde;
-        color: white;
     }
 
     .blueContent {
@@ -43,19 +46,20 @@ export const Home = () => {
     return (
         <Styles>
             <Container>
-                <Row>
-                    <Col>
-                        <Image src={profile} alt="Profile" rounded style={{width:270, height:270}}/>
-                    </Col>
-                    <Col>
-                        <div className="mainText">
-                            <p>Welcome! My name is Jiankai (Kevin) Pu. </p>
-                            <p>I am a senior studying Computer Science and Psychology at the University of Michigan. I am enthusiastic about music, dancing, and creative writing.</p>
-                            <p>You can find my projects, experiences and passions here.</p>
-                        </div>
-                    </Col>
-                </Row>
-                
+                <div className="intro">
+                    <Row>
+                        <Col>
+                            <Image src={profile} alt="Profile" rounded style={{width:270, height:270}}/>
+                        </Col>
+                        <Col sm={8}>
+                            <div className="mainText">
+                                <p>Welcome! My name is Jiankai (Kevin) Pu. </p>
+                                <p>I am a senior studying Computer Science and Psychology at the University of Michigan. I am enthusiastic about music, dancing, and creative writing.</p>
+                                <p>You can find my projects, experiences and passions here.</p>
+                            </div>
+                        </Col>
+                    </Row>
+                </div>
             </Container>
 
             <div className="spacing"></div>
