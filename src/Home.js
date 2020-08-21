@@ -103,25 +103,6 @@ export const Home = () => {
             <h2 className="title">Passions</h2>
             <Container>
                 <div className="passions">
-
-                    <Carousel>
-                        <Carousel.Item>
-                            <Image src={dance1} alt="Dance 1" rounded style={{width:500, height:333}}/>
-                            <Carousel.Caption>
-                                <p>Taken at Dance Mix 2019, facing an audience of 1000 people</p>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <Image src={dance2} alt="Dance 2" rounded style={{width:500, height:333}}/>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <Image src={dance3} alt="Dance 3" rounded style={{width:500, height:333}}/>
-                            <Carousel.Caption>
-                                <p>Taken at Barnite Winter 2019, performing with dance crews around Mid-west</p>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                    </Carousel>
-
                     <Row>
                         <Col>
                             <h4 className="subtitle">Dancing</h4>
@@ -129,6 +110,33 @@ export const Home = () => {
                                 <p>I do urban and hip-hop dancing in my free time. A choreogrpaher and co-president on the dance crew FunKtion</p>
                             </Container>
                         </Col>
+
+                        <Col>
+                            <Carousel>
+                                <Carousel.Item>
+                                    <Image src={dance1} alt="Dance 1" rounded style={{width:500, height:333}}/>
+                                    <Carousel.Caption>
+                                        <p>Taken at Dance Mix 2019,</p>
+                                        <p>facing an audience of 1000 people</p>
+                                    </Carousel.Caption>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <Image src={dance2} alt="Dance 2" rounded style={{width:500, height:333}}/>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <Image src={dance3} alt="Dance 3" rounded style={{width:500, height:333}}/>
+                                    <Carousel.Caption>
+                                        <p>Taken at Barnite Winter 2019,</p>
+                                        <p>performing with dance crews around Mid-west</p>
+                                    </Carousel.Caption>
+                                </Carousel.Item>
+                            </Carousel>
+                        </Col>
+                    </Row>
+
+                    <div className="spacing"></div>
+
+                    <Row>
                         <Col>
                             <h4 className="subtitle">Guitar</h4>
                             <Container>
