@@ -1,27 +1,30 @@
 {
   "files": {
     "main.css": "/website/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/website/static/js/main.2c9827e4.chunk.js",
-    "main.js.map": "/website/static/js/main.2c9827e4.chunk.js.map",
+    "main.js": "/website/static/js/main.81f55b06.chunk.js",
+    "main.js.map": "/website/static/js/main.81f55b06.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.9b825fe6.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.9b825fe6.js.map",
-    "static/js/2.d9d6b287.chunk.js": "/website/static/js/2.d9d6b287.chunk.js",
-    "static/js/2.d9d6b287.chunk.js.map": "/website/static/js/2.d9d6b287.chunk.js.map",
+    "static/js/2.a2fefd09.chunk.js": "/website/static/js/2.a2fefd09.chunk.js",
+    "static/js/2.a2fefd09.chunk.js.map": "/website/static/js/2.a2fefd09.chunk.js.map",
     "index.html": "/website/index.html",
-    "precache-manifest.f4caef965461ad2b1db54e1e43c0f29e.js": "/website/precache-manifest.f4caef965461ad2b1db54e1e43c0f29e.js",
+    "precache-manifest.ac47a8348e4b16d4b8cf3b5ffaeac631.js": "/website/precache-manifest.ac47a8348e4b16d4b8cf3b5ffaeac631.js",
     "service-worker.js": "/website/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/website/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.d9d6b287.chunk.js.LICENSE.txt": "/website/static/js/2.d9d6b287.chunk.js.LICENSE.txt",
+    "static/js/2.a2fefd09.chunk.js.LICENSE.txt": "/website/static/js/2.a2fefd09.chunk.js.LICENSE.txt",
     "static/media/background.jpeg": "/website/static/media/background.996657a3.jpeg",
     "static/media/dance1.jpeg": "/website/static/media/dance1.de8755fb.jpeg",
     "static/media/dance2.jpeg": "/website/static/media/dance2.4fe02ff8.jpeg",
     "static/media/dance3.jpeg": "/website/static/media/dance3.8529bc81.jpeg",
+    "static/media/endless_runner1.jpeg": "/website/static/media/endless_runner1.59711cab.jpeg",
+    "static/media/endless_runner2.jpeg": "/website/static/media/endless_runner2.bf4c8aac.jpeg",
+    "static/media/endless_runner3.jpeg": "/website/static/media/endless_runner3.f752c57b.jpeg",
     "static/media/profile.jpeg": "/website/static/media/profile.59021c86.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.9b825fe6.js",
-    "static/js/2.d9d6b287.chunk.js",
+    "static/js/2.a2fefd09.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.2c9827e4.chunk.js"
+    "static/js/main.81f55b06.chunk.js"
   ]
 }
