@@ -15,6 +15,7 @@ const Styles = styled.div `
     }
 
     .title {
+        text-align: center;
         height: 80px;
         background-color: #92bfde;
         color: white;
@@ -88,9 +89,6 @@ export const Experience = () => {
                                     <p>Indexing implemented with MapReduce on Hadoop pipeline to allow large scaling</p>
                                     <p>Information retrieval based on both tf-idf and PageRank scores</p>
                                     <p>Search interface driven by React with user-driven scoring and summarization</p>
-                                    <Button variant="info" size="sm" href="https://github.com/hanqingh/eecs485-p5">
-                                        Learn more...
-                                    </Button>
                                 </Container>
                             </Col>
 
@@ -100,9 +98,6 @@ export const Experience = () => {
                                     <p>An Instagram clone application using client-side dynmaic pages, REST API, and React</p>
                                     <p>Render webpages to make asynchronous calls and update content seamelessly</p>
                                     <p>Allows users to create profile, log in, make posts, and react to other user's posts</p>
-                                    <Button variant="info" size="sm" href="https://github.com/hanqingh/eecs485-p3">
-                                        Learn more...
-                                    </Button>
                                 </Container>
                             </Col>
                         </Row>
@@ -113,26 +108,23 @@ export const Experience = () => {
                             <Col>
                                 <h4 className="subtitle">Endless Runner</h4>
                                 <p>A web-based side-scroller game using Vue framework and JavaScript</p>
-                                <Button variant="info" size="sm" href="https://github.com/edtsoi430/endless-runner-prototype">
-                                        Learn more...
-                                </Button>
                             </Col>
                             <Col>
                                 <Carousel>
                                     <Carousel.Item>
-                                        <Image src={endless_runner1} alt="Endless Runner 1" rounded style={{width:597, height:400}}/>
+                                        <Image src={endless_runner1} alt="Endless Runner 1" rounded style={{width:650, height:370}}/>
                                         <Carousel.Caption className="caption">
                                             <p>Start screen of the game</p>
                                         </Carousel.Caption>
                                     </Carousel.Item>
                                     <Carousel.Item>
-                                        <Image src={endless_runner2} alt="Endless Runner 2" rounded style={{width:597, height:400}}/>
+                                        <Image src={endless_runner2} alt="Endless Runner 2" rounded style={{width:650, height:370}}/>
                                         <Carousel.Caption className="caption">
                                             <p>Character running on platform</p>
                                         </Carousel.Caption>
                                     </Carousel.Item>
                                     <Carousel.Item>
-                                        <Image src={endless_runner3} alt="Endless Runner 3" rounded style={{width:597, height:400}}/>
+                                        <Image src={endless_runner3} alt="Endless Runner 3" rounded style={{width:650, height:370}}/>
                                         <Carousel.Caption className="caption">
                                             <p>Game over screen <br/>and pick-up items</p>
                                         </Carousel.Caption>
