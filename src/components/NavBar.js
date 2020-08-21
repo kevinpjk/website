@@ -12,15 +12,14 @@ const Styles = styled.div `
     }
 
     .navbar-brand, .navbar-nav .nav-link {
-        color: #bbb;
-        font-size: 12pt;
+        color: #92bfde;
     }
 
     .navbar-nav, .nav-link {
         float: right;
 
         &:hover {
-            color: black;
+            color: #29476c;
         }
     }
 `;

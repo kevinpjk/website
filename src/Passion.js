@@ -19,7 +19,7 @@ const Styles = styled.div `
         color: white;
     }
 
-    .h2 {
+    .titleText {
         place-items: center;
     }
 
@@ -41,7 +41,7 @@ export const Passion = () => {
         <Styles>
             <div>
                 <div className="title">
-                    <h2>Passion</h2>
+                    <h2 className="titleText">Passion</h2>
                 </div>
 
                 <Container>
