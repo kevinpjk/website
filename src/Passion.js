@@ -5,7 +5,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 const Styles = styled.div `
     .content {
         vertical-align: top;
-        text-align: center;
         font-size: 14pt;
         border: 3px solid transparent;
         padding-bottom: 40px;
@@ -18,6 +17,10 @@ const Styles = styled.div `
         height: 80px;
         background-color: #92bfde;
         color: white;
+    }
+
+    .h2 {
+        place-items: center;
     }
 
     .subtitle {
@@ -53,6 +56,8 @@ export const Passion = () => {
                             
                             </Col>
                         </Row>
+
+                        <div className="spacing"></div>
 
                         <Row>
                             <Col>

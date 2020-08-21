@@ -70,54 +70,58 @@ export const Home = () => {
             <div className="blueContent">
                 <div className="spacing"></div>
                 <h2 className="title">Projects</h2>
-                <div className="projects">
-                    <Row>
-                        <Col>
-                            <h4 className="subtitle">Search Engine</h4>
-                            <Container>
-                                <p>A scalable search engine implementation using hadoop pipieline and map reduce</p>
-                            </Container>
-                        </Col>
-                        <Col>
-                            <h4 className="subtitle">Client-side Dynamic Social Media</h4>
-                            <Container>
-                                <p>An Instagram clone application using client-side dynmaic pages, REST API, and React</p>
-                            </Container>
-                        </Col>
-                        <Col>
-                            <h4 className="subtitle">Endless Runner</h4>
-                            <Container>
-                                <p>A web-based game that generates obstacles and pick-ups and keeps the player running</p>
-                            </Container>
-                        </Col>
-                    </Row>
-                </div>
+                <Container>
+                    <div className="projects">
+                        <Row>
+                            <Col>
+                                <h4 className="subtitle">Search Engine</h4>
+                                <Container>
+                                    <p>A scalable search engine implementation using hadoop pipieline and map reduce</p>
+                                </Container>
+                            </Col>
+                            <Col>
+                                <h4 className="subtitle">Client-side Dynamic Social Media</h4>
+                                <Container>
+                                    <p>An Instagram clone application using client-side dynmaic pages, REST API, and React</p>
+                                </Container>
+                            </Col>
+                            <Col>
+                                <h4 className="subtitle">Endless Runner</h4>
+                                <Container>
+                                    <p>A web-based game that generates obstacles and pick-ups and keeps the player running</p>
+                                </Container>
+                            </Col>
+                        </Row>
+                    </div>
+                </Container>
             </div>
             <div className="spacing"></div>
 
             <h2 className="title">Passions</h2>
-            <div className="passions">
-                <Row>
-                    <Col>
-                        <h4 className="subtitle">Dancing</h4>
-                        <Container>
-                            <p>I do urban and hip-hop dancing in my free time. A choreogrpaher and co-president on the dance crew FunKtion</p>
-                        </Container>
-                    </Col>
-                    <Col>
-                        <h4 className="subtitle">Guitar</h4>
-                        <Container>
-                            <p>I have played acoustic guitar for 7 years</p>
-                        </Container>
-                    </Col>
-                    <Col>
-                        <h4 className="subtitle">Creative Writing</h4>
-                        <Container>
-                            <p>I own a Chinese public blog and have compiled a book with my free writing pieces</p>
-                        </Container>
-                    </Col>
-                </Row>
-            </div>
+            <Container>
+                <div className="passions">
+                    <Row>
+                        <Col>
+                            <h4 className="subtitle">Dancing</h4>
+                            <Container>
+                                <p>I do urban and hip-hop dancing in my free time. A choreogrpaher and co-president on the dance crew FunKtion</p>
+                            </Container>
+                        </Col>
+                        <Col>
+                            <h4 className="subtitle">Guitar</h4>
+                            <Container>
+                                <p>I have played acoustic guitar for 7 years</p>
+                            </Container>
+                        </Col>
+                        <Col>
+                            <h4 className="subtitle">Creative Writing</h4>
+                            <Container>
+                                <p>I own a Chinese public blog and have compiled a book with my free writing pieces</p>
+                            </Container>
+                        </Col>
+                    </Row>
+                </div>
+            </Container>
         </Styles>
     )
 }
