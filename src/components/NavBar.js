@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 const Styles = styled.div `
     .navbar {
+        background-color: white;
         position: fixed;
         top: 0;
         width: 100%;
@@ -12,7 +13,11 @@ const Styles = styled.div `
 
     .navbar-brand, .navbar-nav .nav-link {
         color: #bbb;
-        font-size: 10pt;
+        font-size: 12pt;
+    }
+
+    .navbar-nav, .nav-link {
+        float: right;
 
         &:hover {
             color: black;

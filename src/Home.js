@@ -43,6 +43,10 @@ const Styles = styled.div `
         padding-top: 20px;
     }
 
+    .caption {
+        font-size: 12pt;
+    }
+
     .spacing {
         height: 20px;
     }
@@ -83,7 +87,7 @@ export const Home = () => {
                                 </Container>
                             </Col>
                             <Col>
-                                <h4 className="subtitle">Client-side Dynamic Social Media</h4>
+                                <h4 className="subtitle">Client-side Dynamic<br/>Social Media</h4>
                                 <Container>
                                     <p>An Instagram clone application using client-side dynmaic pages, REST API, and React</p>
                                 </Container>
@@ -101,6 +105,10 @@ export const Home = () => {
             <div className="spacing"></div>
 
             <h2 className="title">Passions</h2>
+
+            <div className="spacing"></div>
+            <div className="spacing"></div>
+
             <Container>
                 <div className="passions">
                     <Row>
@@ -115,9 +123,8 @@ export const Home = () => {
                             <Carousel>
                                 <Carousel.Item>
                                     <Image src={dance1} alt="Dance 1" rounded style={{width:500, height:333}}/>
-                                    <Carousel.Caption>
-                                        <p>Taken at Dance Mix 2019,</p>
-                                        <p>facing an audience of 1000 people</p>
+                                    <Carousel.Caption className="caption">
+                                        <p>Taken at Dance Mix 2019, <br/>facing an audience of 1000 people</p>
                                     </Carousel.Caption>
                                 </Carousel.Item>
                                 <Carousel.Item>
@@ -125,15 +132,15 @@ export const Home = () => {
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     <Image src={dance3} alt="Dance 3" rounded style={{width:500, height:333}}/>
-                                    <Carousel.Caption>
-                                        <p>Taken at Barnite Winter 2019,</p>
-                                        <p>performing with dance crews around Mid-west</p>
+                                    <Carousel.Caption className="caption">
+                                        <p>Taken at Barnite Winter 2019,<br/>performing with dance crews around Mid-west</p>
                                     </Carousel.Caption>
                                 </Carousel.Item>
                             </Carousel>
                         </Col>
                     </Row>
 
+                    <div className="spacing"></div>
                     <div className="spacing"></div>
 
                     <Row>
