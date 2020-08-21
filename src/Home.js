@@ -2,6 +2,9 @@ import React from 'react'
 import styled from 'styled-components';
 import { Row, Col, Container, Carousel, Image, Card } from 'react-bootstrap';
 import profile from "./assets/profile.jpeg";
+import dance1 from "./assets/dance1.jpeg";
+import dance2 from "./assets/dance2.jpeg";
+import dance3 from "./assets/dance3.jpeg";
 // TODO: Use Cards for sub-sections of project and passions
 // Use Carousel for actual project and experience page
 const Styles = styled.div `
@@ -100,6 +103,25 @@ export const Home = () => {
             <h2 className="title">Passions</h2>
             <Container>
                 <div className="passions">
+
+                    <Carousel>
+                        <Carousel.Item>
+                            <Image src={dance1} alt="Dance 1" rounded style={{width:500, height:333}}/>
+                            <Carousel.Caption>
+                                <p>Taken at Dance Mix 2019, facing an audience of 1000 people</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <Image src={dance2} alt="Dance 2" rounded style={{width:500, height:333}}/>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <Image src={dance3} alt="Dance 3" rounded style={{width:500, height:333}}/>
+                            <Carousel.Caption>
+                                <p>Taken at Barnite Winter 2019, performing with dance crews around Mid-west</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                    </Carousel>
+
                     <Row>
                         <Col>
                             <h4 className="subtitle">Dancing</h4>
