@@ -21,8 +21,7 @@ const Styles = styled.div `
     }
 
     .titleText {
-        vertical-align: center;
-        text-align: center;
+        padding-top: 30px;
         place-items: center;
     }
 
@@ -121,19 +120,19 @@ export const Experience = () => {
                             <Col>
                                 <Carousel>
                                     <Carousel.Item>
-                                        <Image src={endless_runner1} alt="Endless Runner 1" rounded style={{width:597, height:355}}/>
+                                        <Image src={endless_runner1} alt="Endless Runner 1" rounded style={{width:597, height:400}}/>
                                         <Carousel.Caption className="caption">
                                             <p>Start screen of the game</p>
                                         </Carousel.Caption>
                                     </Carousel.Item>
                                     <Carousel.Item>
-                                        <Image src={endless_runner2} alt="Endless Runner 2" rounded style={{width:597, height:355}}/>
+                                        <Image src={endless_runner2} alt="Endless Runner 2" rounded style={{width:597, height:400}}/>
                                         <Carousel.Caption className="caption">
                                             <p>Character running on platform</p>
                                         </Carousel.Caption>
                                     </Carousel.Item>
                                     <Carousel.Item>
-                                        <Image src={endless_runner3} alt="Endless Runner 3" rounded style={{width:597, height:355}}/>
+                                        <Image src={endless_runner3} alt="Endless Runner 3" rounded style={{width:597, height:400}}/>
                                         <Carousel.Caption className="caption">
                                             <p>Game over screen <br/>and pick-up items</p>
                                         </Carousel.Caption>
