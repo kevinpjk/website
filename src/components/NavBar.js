@@ -4,13 +4,15 @@ import styled from 'styled-components';
 
 const Styles = styled.div `
     .navbar {
-        background: none;
-        position: sticky;
-        z-index: 1;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 5;
     }
 
     .navbar-brand, .navbar-nav .nav-link {
         color: #bbb;
+        font-size: 10pt;
 
         &:hover {
             color: black;
