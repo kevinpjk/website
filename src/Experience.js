@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Row, Col, Container, Carousel, Image, Card } from 'react-bootstrap';
+import { Row, Col, Container, Carousel, Image, Button } from 'react-bootstrap';
 import endless_runner1 from "./assets/endless_runner1.jpeg";
 import endless_runner2 from "./assets/endless_runner2.jpeg";
 import endless_runner3 from "./assets/endless_runner3.jpeg";
@@ -15,14 +15,14 @@ const Styles = styled.div `
     }
 
     .title {
-        vertical-align: center;
-        text-align: center;
         height: 80px;
         background-color: #92bfde;
         color: white;
     }
 
     .titleText {
+        vertical-align: center;
+        text-align: center;
         place-items: center;
     }
 
@@ -84,12 +84,14 @@ export const Experience = () => {
                         <Row>
                             <Col>
                                 <Container>
-                                    <h4 className="subtitle" href="https://github.com/hanqingh/eecs485-p5">Search Engine</h4>
+                                    <h4 className="subtitle">Search Engine</h4>
                                     <p>A scaleable search engine similar to a commercial search engine</p>
                                     <p>Indexing implemented with MapReduce on Hadoop pipeline to allow large scaling</p>
                                     <p>Information retrieval based on both tf-idf and PageRank scores</p>
                                     <p>Search interface driven by React with user-driven scoring and summarization</p>
-                                    <p href="https://github.com/hanqingh/eecs485-p5">Learn more...</p>
+                                    <Button variant="info" size="sm" href="https://github.com/hanqingh/eecs485-p5">
+                                        Learn more...
+                                    </Button>
                                 </Container>
                             </Col>
 
@@ -99,7 +101,9 @@ export const Experience = () => {
                                     <p>An Instagram clone application using client-side dynmaic pages, REST API, and React</p>
                                     <p>Render webpages to make asynchronous calls and update content seamelessly</p>
                                     <p>Allows users to create profile, log in, make posts, and react to other user's posts</p>
-                                    <p href="https://github.com/hanqingh/eecs485-p3">Learn more...</p>
+                                    <Button variant="info" size="sm" href="https://github.com/hanqingh/eecs485-p3">
+                                        Learn more...
+                                    </Button>
                                 </Container>
                             </Col>
                         </Row>
@@ -110,23 +114,26 @@ export const Experience = () => {
                             <Col>
                                 <h4 className="subtitle">Endless Runner</h4>
                                 <p>A web-based side-scroller game using Vue framework and JavaScript</p>
+                                <Button variant="info" size="sm" href="https://github.com/edtsoi430/endless-runner-prototype">
+                                        Learn more...
+                                </Button>
                             </Col>
                             <Col>
                                 <Carousel>
                                     <Carousel.Item>
-                                        <Image src={endless_runner1} alt="Endless Runner 1" rounded/>
+                                        <Image src={endless_runner1} alt="Endless Runner 1" rounded style={{width:597, height:355}}/>
                                         <Carousel.Caption className="caption">
                                             <p>Start screen of the game</p>
                                         </Carousel.Caption>
                                     </Carousel.Item>
                                     <Carousel.Item>
-                                        <Image src={endless_runner2} alt="Endless Runner 2" rounded />
+                                        <Image src={endless_runner2} alt="Endless Runner 2" rounded style={{width:597, height:355}}/>
                                         <Carousel.Caption className="caption">
                                             <p>Character running on platform</p>
                                         </Carousel.Caption>
                                     </Carousel.Item>
                                     <Carousel.Item>
-                                        <Image src={endless_runner3} alt="Endless Runner 3" rounded />
+                                        <Image src={endless_runner3} alt="Endless Runner 3" rounded style={{width:597, height:355}}/>
                                         <Carousel.Caption className="caption">
                                             <p>Game over screen <br/>and pick-up items</p>
                                         </Carousel.Caption>

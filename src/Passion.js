@@ -12,14 +12,14 @@ const Styles = styled.div `
     }
 
     .title {
-        vertical-align: center;
-        text-align: center;
         height: 80px;
         background-color: #92bfde;
         color: white;
     }
 
     .titleText {
+        vertical-align: center;
+        text-align: center;
         place-items: center;
     }
 
