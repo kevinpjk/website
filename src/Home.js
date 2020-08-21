@@ -9,6 +9,7 @@ const Styles = styled.div `
         display: inline-block;
         vertical-align: top;
         text-align: center;
+        font-size: 14px;
         border: 3px solid transparent;
         padding-bottom: 40px;
         padding-top: 20px;
@@ -23,7 +24,7 @@ const Styles = styled.div `
         place-items: center;
         text-align: center;
         height: 50px;
-        padding-top:20px;
+        padding-top: 20px;
         color: #29476c;
     }
 
@@ -67,6 +68,7 @@ export const Home = () => {
             <div className="spacing"></div>
 
             <div className="blueContent">
+                <div className="spacing"></div>
                 <h2 className="title">Projects</h2>
                 <div className="projects">
                     <Row>
@@ -77,15 +79,15 @@ export const Home = () => {
                             </Container>
                         </Col>
                         <Col>
-                            <h4 className="subtitle">Endless Runner</h4>
-                            <Container>
-                                <p>A web-based game that generates obstacles and pick-ups and keeps the player running</p>
-                            </Container>
-                        </Col>
-                        <Col>
                             <h4 className="subtitle">Client-side Dynamic Social Media</h4>
                             <Container>
                                 <p>An Instagram clone application using client-side dynmaic pages, REST API, and React</p>
+                            </Container>
+                        </Col>
+                        <Col>
+                            <h4 className="subtitle">Endless Runner</h4>
+                            <Container>
+                                <p>A web-based game that generates obstacles and pick-ups and keeps the player running</p>
                             </Container>
                         </Col>
                     </Row>

@@ -5,6 +5,7 @@ const Styles = styled.div `
     .content {
         vertical-align: top;
         text-align: center;
+        font-size: 14px;
         border: 3px solid transparent;
         padding-bottom: 40px;
         padding-top: 20px;
