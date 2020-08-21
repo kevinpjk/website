@@ -9,7 +9,7 @@ const Styles = styled.div `
         display: inline-block;
         vertical-align: top;
         text-align: center;
-        font-size: 14px;
+        font-size: 14pt;
         border: 3px solid transparent;
         padding-bottom: 40px;
         padding-top: 20px;
