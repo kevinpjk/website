@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col, Container, Carousel, Image, Card } from 'react-bootstrap';
 import endless_runner1 from "./assets/endless_runner1.jpeg";
 import endless_runner2 from "./assets/endless_runner2.jpeg";
 import endless_runner3 from "./assets/endless_runner3.jpeg";

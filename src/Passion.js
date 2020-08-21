@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col, Container, Carousel, Image, Card } from 'react-bootstrap';
 
 const Styles = styled.div `
     .content {
