@@ -22,7 +22,7 @@ const Styles = styled.div `
     }
 
     .titleText {
-        padding-top: 30px;
+        padding-top: 10px;
         place-items: center;
     }
 
@@ -32,6 +32,10 @@ const Styles = styled.div `
         text-align: center;
         padding-bottom: 10px;
         padding-top: 20px;
+    }
+
+    .caption {
+        font-size: 12pt;
     }
 
     .spacing {
@@ -94,7 +98,7 @@ export const Experience = () => {
 
                             <Col>
                                 <Container>
-                                    <h4 className="subtitle" href="https://github.com/hanqingh/eecs485-p3">Client-side Dynamic Social Media</h4>
+                                    <h4 className="subtitle">Client-side Dynamic Social Media</h4>
                                     <p>An Instagram clone application using client-side dynmaic pages, REST API, and React</p>
                                     <p>Render webpages to make asynchronous calls and update content seamelessly</p>
                                     <p>Allows users to create profile, log in, make posts, and react to other user's posts</p>
@@ -109,28 +113,30 @@ export const Experience = () => {
                                 <h4 className="subtitle">Endless Runner</h4>
                                 <p>A web-based side-scroller game using Vue framework and JavaScript</p>
                             </Col>
+
                             <Col>
                                 <Carousel>
                                     <Carousel.Item>
-                                        <Image src={endless_runner1} alt="Endless Runner 1" rounded style={{width:650, height:370}}/>
+                                        <Image src={endless_runner1} alt="Endless Runner 1" rounded style={{width:500, height:300}}/>
                                         <Carousel.Caption className="caption">
                                             <p>Start screen of the game</p>
                                         </Carousel.Caption>
                                     </Carousel.Item>
                                     <Carousel.Item>
-                                        <Image src={endless_runner2} alt="Endless Runner 2" rounded style={{width:650, height:370}}/>
+                                        <Image src={endless_runner2} alt="Endless Runner 2" rounded style={{width:500, height:300}}/>
                                         <Carousel.Caption className="caption">
                                             <p>Character running on platform</p>
                                         </Carousel.Caption>
                                     </Carousel.Item>
                                     <Carousel.Item>
-                                        <Image src={endless_runner3} alt="Endless Runner 3" rounded style={{width:650, height:370}}/>
+                                        <Image src={endless_runner3} alt="Endless Runner 3" rounded style={{width:500, height:300}}/>
                                         <Carousel.Caption className="caption">
                                             <p>Game over screen <br/>and pick-up items</p>
                                         </Carousel.Caption>
                                     </Carousel.Item>
                                 </Carousel>
                             </Col>
+                            
                         </Row>
                     </div>
                 </Container>

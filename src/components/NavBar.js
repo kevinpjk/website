@@ -12,14 +12,14 @@ const Styles = styled.div `
     }
 
     .navbar-brand, .navbar-nav .nav-link {
-        color: #92bfde;
+        color: #29476c;
     }
 
     .navbar-nav, .nav-link {
         float: right;
 
         &:hover {
-            color: #29476c;
+            color: #92bfde;
         }
     }
 `;

@@ -76,7 +76,12 @@ export const Home = () => {
 
             <div className="blueContent">
                 <div className="spacing"></div>
+                
                 <h2 className="title">Projects</h2>
+
+                <div className="spacing"></div>
+                <div className="spacing"></div>
+
                 <Container>
                     <div className="projects">
                         <Row>

@@ -11,6 +11,18 @@ const Styles = styled.div `
         padding-top: 20px;
     }
 
+    .title {
+        text-align: center;
+        height: 80px;
+        background-color: #92bfde;
+        color: white;
+    }
+
+    .titleText {
+        padding-top: 10px;
+        place-items: center;
+    }
+
     .subtitle {
         color: #29476c;
         vertical-align: top;
@@ -28,6 +40,9 @@ export const Passion = () => {
     return (
         <Styles>
             <div>
+                <div className="title">
+                    <h2 className="titleText">Passion</h2>
+                </div>
 
                 <Container>
                     <div className="content">
