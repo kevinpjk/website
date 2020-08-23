@@ -19,7 +19,7 @@ const Styles = styled.div `
     }
 
     .titleText {
-        padding-top: 10px;
+        padding-top: 17.5px;
         place-items: center;
     }
 
@@ -44,14 +44,17 @@ export const Passion = () => {
                     <h2 className="titleText">Passion</h2>
                 </div>
 
+                <div className="spacing"></div>
+
                 <Container>
                     <div className="content">
                         <Row>
                             <Col>
                                 <Container>
                                     <h4 className="subtitle">Hip-hop &amp; Urban Dancing</h4>
-                                    <p>I am a choreographer and co-president at FunKtion, a student-led multicultural dance crew</p>
-                                    <p>I organize performances, choreograph dance pieces and formations, and edit music cuts</p>
+                                    <p>I am a choreographer and co-president at FunKtion, a student-led multicultural dance crew at the University of Michigan.</p>
+                                    <p>I have organized performances with dance teams around Mid-west and performed for thousnads of people.</p>
+                                    <p>From having zero experience, I now choreograph dance pieces and create formations for routines. And I also edit music cuts to create a smooth performance</p>
                                 </Container>
                             </Col>
                             <Col>
@@ -65,18 +68,18 @@ export const Passion = () => {
                             <Col>
                                 <Container>
                                     <h4 className="subtitle">Acoustic Guitar</h4>
-                                    <p>I have been playing acoustic guitar for 7 years</p>
-                                    <p>I arrange chords and fingerstyle sheet music</p>
-                                    <p>I make guitar and singing covers of songs I enjoy</p>
+                                    <p>I have been playing acoustic guitar for 7 years, primarily focusing on fingerstyle and chord strumming.</p>
+                                    <p>In my free time, I would arrange chords and fingerstyle sheet music.</p>
+                                    <p>My favorite thing to do with guitar is to accompany it with singing and make covers of songs I enjoy.</p>
                                 </Container>
                             </Col>
 
                             <Col>
                                 <Container>
                                     <h4 className="subtitle">Creative Writing</h4>
-                                    <p>I own and operate a Mandarin blog that gathers thousands of views</p>
-                                    <p>I enjoy writing fiction, personal essays, and book and movie reviews</p>
-                                    <p>I compiled 20 pieces of my writing into a paperpack book</p>
+                                    <p>I own a personal Mandarin blog that gathers thousands of views. I have been operating it since 2017.</p>
+                                    <p>My main categories of work include fictional short stories, personal essays, and book and movie reviews on my favorite works.</p>
+                                    <p>In 2020, I compiled 20 pieces of my writing in the past few years into a paperpack book.</p>
                                 </Container>
                             </Col>
                         </Row>

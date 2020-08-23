@@ -64,7 +64,9 @@ export const Home = () => {
                         <Col sm={8}>
                             <div className="mainText">
                                 <p>Welcome! My name is Jiankai (Kevin) Pu. </p>
-                                <p>I am a senior studying Computer Science and Psychology at the University of Michigan. I am enthusiastic about music, dancing, and creative writing.</p>
+                                <p>I am a senior studying Computer Science and Psychology at the University of Michigan. And I intend to enroll in a Graduate program starting Fall 2021 to further my study in Computer Science. Right now, I'm also actively looking for internships for summer 2021.</p>
+                                <p>To me, Psychology involves how human beings interact with each other, while technologies provide innovative means for people to communicate, express, and create. I am interested in the intersection of the two, and I want to design software and interface that best allow users to take advantage of the technology and express their creativity. </p>
+                                <p>In my free time, I practice dancing, acoustic guitar, and creative writing.</p>
                                 <p>You can find my projects, experiences and passions here.</p>
                             </div>
                         </Col>
@@ -100,7 +102,7 @@ export const Home = () => {
                             <Col>
                                 <h4 className="subtitle">Endless Runner</h4>
                                 <Container>
-                                    <p>A web-based game that generates obstacles and pick-ups and keeps the player running</p>
+                                    <p>A web-based JavaScript game that generates obstacles and pick-ups and keeps the player running</p>
                                 </Container>
                             </Col>
                         </Row>
@@ -120,7 +122,8 @@ export const Home = () => {
                         <Col>
                             <h4 className="subtitle">Dancing</h4>
                             <Container>
-                                <p>I do urban and hip-hop dancing in my free time. A choreogrpaher and co-president on the dance crew FunKtion</p>
+                                <p>I do urban and hip-hop dancing in my free time. A choreogrpaher and co-president on the dance crew FunKtion.</p>
+                                <p>Here are some of the photos taken at our best performances in 2019! We create our original routine and present them to thousands of people!</p>
                             </Container>
                         </Col>
 
@@ -152,13 +155,15 @@ export const Home = () => {
                         <Col>
                             <h4 className="subtitle">Guitar</h4>
                             <Container>
-                                <p>I have played acoustic guitar for 7 years</p>
+                                <p>Started in high school, I have been playing the acoustic guitar for 7 years.</p>
+                                <p>I practice both fingerstyle picking and also struming. I like to accompany guitar with singing, creating covers of my favorite songs.</p>
                             </Container>
                         </Col>
                         <Col>
                             <h4 className="subtitle">Creative Writing</h4>
                             <Container>
-                                <p>I own a Chinese public blog and have compiled a book with my free writing pieces</p>
+                                <p>I own a Chinese public blog where I post my personal essays, short stories, and book and movie reviews. I have been operating this blog since 2017.</p>
+                                <p>In 2020, I have compiled a book with my 20 pieces of writing.</p>
                             </Container>
                         </Col>
                     </Row>
