@@ -15,7 +15,14 @@ const Styles = styled.div `
         font-size: 14pt;
         border: 3px solid transparent;
         padding-bottom: 40px;
-        padding-top: 20px;
+    }
+    
+    .passions {
+        text-indent: 20px;
+    }
+
+    p {
+        text-align: left;
     }
 
     .intro {
@@ -48,7 +55,7 @@ const Styles = styled.div `
     }
 
     .spacing {
-        height: 20px;
+        height: 30px;
     }
 `;
 
@@ -59,29 +66,55 @@ export const Home = () => {
                 <div className="intro">
                     <Row>
                         <Col>
-                            <Image src={profile} alt="Profile" rounded style={{width:270, height:270}}/>
+                            <Image src={profile} alt="Profile" rounded style={{width:300, height:300}}/>
                         </Col>
                         <Col sm={8}>
                             <div className="mainText">
                                 <p>Welcome! My name is Jiankai (Kevin) Pu. </p>
-                                <p>I am a senior studying Computer Science and Psychology at the University of Michigan. And I intend to enroll in a Graduate program starting Fall 2021 to further my study in Computer Science. Right now, I'm also actively looking for internships for summer 2021.</p>
-                                <p>To me, Psychology involves how human beings interact with each other, while technologies provide innovative means for people to communicate, express, and create. I am interested in the intersection of the two, and I want to design software and interface that best allow users to take advantage of the technology and express their creativity. </p>
-                                <p>In my free time, I practice dancing, acoustic guitar, and creative writing.</p>
-                                <p>You can find my projects, experiences and passions here.</p>
+                                {/* <p>I am a senior studying Computer Science and Psychology at the University of Michigan. And I intend to enroll in a Graduate program starting Fall 2021 to further my study in Computer Science and Human-Computer Interaction.<br/>Right now, I'm also actively looking for internships for summer 2021.</p> */}
+                                <p>I am a senior studying Computer Science and Psychology at the University of Michigan.</p>
+                                <p>To me, Psychology involves how human beings interact with each other, while technologies provide innovative means for people to communicate, express, and create. I am interested in the intersection of the two, and I want to design products that best allow users to take advantage of the technology and express their creativity.</p>
+                                <p>In my free time, I dance, play acoustic guitar, and do creative writing.</p>
+                                <p>I recently started a podcast show called <a href="https://open.spotify.com/show/6OfvgxM9SxIVBpqRdSJ1e4?si=WZkgmRV4QbqPwnp1vYhXhQ">Dandelion Dance</a>!</p>
+                                <p>I also operate a Chinese blog, <a href="http://mp.weixin.qq.com/mp/homepage?__biz=MzUyOTE1MDkyNw==&hid=1&sn=51b3ed183b691323c64278af12cd8bf8&scene=18#wechat_redirect">Onomatopoeia</a>.</p>
+                                <p>You can find my work and research experiences, my personal projects, and my passions here. Enjoy :)</p>
                             </div>
                         </Col>
                     </Row>
                 </div>
             </Container>
 
-            <div className="spacing"></div>
 
             <div className="blueContent">
                 <div className="spacing"></div>
-                
-                <h2 className="title">Projects</h2>
+
+                <h2 className="title">Experience</h2>
 
                 <div className="spacing"></div>
+
+                <Container>
+                    <div className="projects">
+                        <Row>
+                            <Col>
+                                <h4 className="subtitle">Full-stack Student Developer</h4>
+                                <Container>
+                                    <p>I worked on a year-long multidisciplinary design project for Learning A-Z, an education technology company</p>
+                                </Container>
+                            </Col>
+                            <Col>
+                                <h4 className="subtitle">HCI Research Assistant</h4>
+                                <Container>
+                                    <p>At the Computational HCI lab, I did my research project on the computational modelling of user's learning on a touchscreen interface</p>
+                                </Container>
+                            </Col>
+                        </Row>
+                    </div>
+                </Container>
+
+                <div className="spacing"></div>
+                    
+                <h2 className="title">Project</h2>
+
                 <div className="spacing"></div>
 
                 <Container>
@@ -90,11 +123,11 @@ export const Home = () => {
                             <Col>
                                 <h4 className="subtitle">Search Engine</h4>
                                 <Container>
-                                    <p>A scalable search engine implementation using hadoop pipieline and map reduce</p>
+                                    <p>A scalable search engine implementation using Hadoop pipieline and MapReduce</p>
                                 </Container>
                             </Col>
                             <Col>
-                                <h4 className="subtitle">Client-side Dynamic<br/>Social Media</h4>
+                                <h4 className="subtitle">Dynamic Social Media</h4>
                                 <Container>
                                     <p>An Instagram clone application using client-side dynmaic pages, REST API, and React</p>
                                 </Container>
@@ -108,7 +141,10 @@ export const Home = () => {
                         </Row>
                     </div>
                 </Container>
+                <div className="spacing"></div>
             </div>
+
+            
             <div className="spacing"></div>
 
             <h2 className="title">Passions</h2>
@@ -122,8 +158,8 @@ export const Home = () => {
                         <Col>
                             <h4 className="subtitle">Dancing</h4>
                             <Container>
-                                <p>I do urban and hip-hop dancing in my free time. A choreogrpaher and co-president on the dance crew FunKtion.</p>
-                                <p>Here are some of the photos taken at our best performances in 2019! We create our original routine and present them to thousands of people!</p>
+                                <p>I do urban and hip-hop dancing in my free time. I am a choreogrpaher and the co-president of the dance crew FunKtion.</p>
+                                <p>Here are some of the photos taken at our best performances in 2019! We create our original routines and present them to thousands of people!</p>
                             </Container>
                         </Col>
 
@@ -153,6 +189,22 @@ export const Home = () => {
 
                     <Row>
                         <Col>
+                            <iframe src="https://open.spotify.com/embed-podcast/show/6OfvgxM9SxIVBpqRdSJ1e4" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                        </Col>
+                        <Col>
+                            <h4 className="subtitle">Podcasting</h4>
+                            <Container>
+                                <p>I started my own podcast show, Dandelion Dance, in November 2020, where I act as the writer, the host, and also the editor.</p>
+                                <p>This show provides a medium for me to express my creative thoughts. I review books, movies, and I comment on social topics and express my takes on life.</p>
+                            </Container>
+                        </Col>
+                    </Row>
+
+                    <div className="spacing"></div>
+                    <div className="spacing"></div>
+
+                    <Row>
+                        <Col>
                             <h4 className="subtitle">Guitar</h4>
                             <Container>
                                 <p>Started in high school, I have been playing the acoustic guitar for 7 years.</p>
@@ -168,6 +220,9 @@ export const Home = () => {
                         </Col>
                     </Row>
                 </div>
+
+                <div className="spacing"></div>
+                <div className="spacing"></div>
             </Container>
         </Styles>
     )

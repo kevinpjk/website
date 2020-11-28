@@ -18,6 +18,10 @@ const Styles = styled.div `
         color: white;
     }
 
+    p {
+        text-indent: 20px;
+    }
+
     .titleText {
         padding-top: 17.5px;
         place-items: center;
@@ -52,9 +56,9 @@ export const Passion = () => {
                             <Col>
                                 <Container>
                                     <h4 className="subtitle">Hip-hop &amp; Urban Dancing</h4>
-                                    <p>I am a choreographer and co-president at FunKtion, a student-led multicultural dance crew at the University of Michigan.</p>
-                                    <p>I have organized performances with dance teams around Mid-west and performed for thousnads of people.</p>
-                                    <p>From having zero experience, I now choreograph dance pieces and create formations for routines. And I also edit music cuts to create a smooth performance</p>
+                                    <p>I am a choreographer and the co-president of FunKtion, a student-led multicultural dance crew at the University of Michigan.</p>
+                                    <p>I have organized performances with dance teams around Mid-west and performed for thousands of people on and off campus.</p>
+                                    <p>From having zero dance experience when I entered college, I now choreograph dance pieces and create dance formations and routines. I also edit music cuts to create a smooth and entertaining performance</p>
                                 </Container>
                             </Col>
                             <Col>
@@ -62,6 +66,24 @@ export const Passion = () => {
                             </Col>
                         </Row>
 
+                        <div className="spacing"></div>
+                        <div className="spacing"></div>
+
+                        <Row>
+                            <Col>
+                                <iframe src="https://open.spotify.com/embed-podcast/show/6OfvgxM9SxIVBpqRdSJ1e4" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                            </Col>
+                            <Col>
+                                <h4 className="subtitle">Podcasting</h4>
+                                <Container>
+                                    <p>I started my own podcast show, Dandelion Dance, in November 2020, where I act as the writer, the host, and also the editor.</p>
+                                    <p>This show provides a medium for me to express my creative thoughts. Every Tuesday, I release a 15-minutes episode where I talk about a topic in life that I find amusing, inspiring, or thought-provoking.</p>
+                                    <p>I hope to use my voice and bring people's attention to issues I care about, and I wlso wish to share my knowledge and stories to give people some food for thoughts and a brief moment to unwind as they listen to my show.</p>
+                                </Container>
+                            </Col>
+                        </Row>
+
+                        <div className="spacing"></div>
                         <div className="spacing"></div>
 
                         <Row>
@@ -83,6 +105,8 @@ export const Passion = () => {
                                 </Container>
                             </Col>
                         </Row>
+                        <div className="spacing"></div>
+                        <div className="spacing"></div>
                     </div>
                 </Container>
             </div>
